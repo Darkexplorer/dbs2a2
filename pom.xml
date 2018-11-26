@@ -7,6 +7,19 @@
     <groupId>test</groupId>
     <artifactId>aid</artifactId>
     <version>1.0-SNAPSHOT</version>
+         
+         <dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-core</artifactId>
+<version>5.2.5.Final</version>
+</dependency>
+<dependency>
+<groupId>ojdbc</groupId>
+<artifactId>com.oracle</artifactId>
+<version>7.0</version>
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/ojdbc7.jar</systemPath>
+</dependency>
 
 
 </project>
